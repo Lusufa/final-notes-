@@ -6,8 +6,14 @@
 
 // export const { sanityFetch, SanityLive } = defineLive({
 //   client: client.withConfig({
-//     // Live content is currently only available on the experimental API
-//     // https://www.sanity.io/docs/api-versioning
+// Live content is currently only available on the experimental API
+// https://www.sanity.io/docs/api-versioning
 //     apiVersion: "vX",
 //   }),
 // });
+// src/sanity/lib/live.ts
+import { client } from "@/sanity/lib/client";
+
+// Temporary fallback while live content is disabled
+export const sanityFetch = client.fetch.bind(client);
+export const SanityLive = () => null;
