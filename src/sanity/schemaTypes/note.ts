@@ -27,6 +27,7 @@ export const note = defineType({
         list: [
           { title: "Medicaps University", value: "medicaps" },
           { title: "IPS University", value: "ips" },
+          { title: "COER University", value: "coer" },
         ],
       },
     }),

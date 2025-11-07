@@ -4,7 +4,16 @@ export const UNIVERSITY_OPTIONS = {
     sanityValue: "medicaps",
     title: "Medicaps University",
   },
-  IPS: { prismaValue: "IPS", sanityValue: "ips", title: "IPS University" },
+  IPS: {
+    prismaValue: "IPS",
+    sanityValue: "ips",
+    title: "IPS University",
+  },
+  COER: {
+    prismaValue: "COER",
+    sanityValue: "coer",
+    title: "COER University",
+  },
 } as const;
 
 export const DEGREE_OPTIONS = {

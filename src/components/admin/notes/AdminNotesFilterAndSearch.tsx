@@ -165,7 +165,9 @@ export default function AdminNotesFilterAndSearch({
                     <SelectItem key={university} value={university}>
                       {university === "MediCaps University"
                         ? "IPS University"
-                        : university}
+                        : university === "COER University"
+                          ? "College of Engineering Roorkee"
+                          : university}
                     </SelectItem>
                   ))}
                 </SelectContent>

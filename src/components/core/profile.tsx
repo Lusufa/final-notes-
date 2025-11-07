@@ -154,7 +154,7 @@ export default function Profile() {
         </Link>
         <Link
           target="_blank"
-          href="https://chat.whatsapp.com/EcretA1N7eCFQeHecm1uWO"
+          href="https://chat.whatsapp.com/BfX3DJKoi7uLWRl6Xm1rdD?mode=wwt"
         >
           <DropdownMenuItem
             data-umami-event="profile-dropdown-Whatsapp-click"

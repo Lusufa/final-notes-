@@ -43,6 +43,8 @@ export default function AdminNotesTable({
         return "Medicaps University";
       case "ips":
         return "IPS University";
+      case "coer":
+        return "COER University";
       default:
         return value;
     }

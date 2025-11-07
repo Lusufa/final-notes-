@@ -42,7 +42,7 @@ export default function Footer() {
         ))}
       </div>
       <div className="text-muted-foreground text-sm">
-        © 2024 Notes Buddy. All rights reserved.
+        © 2025 Noterious. All rights reserved.
       </div>
       <div className="font-excon relative text-5xl font-black tracking-tighter text-nowrap opacity-15 lg:text-9xl">
         <Image
@@ -52,24 +52,24 @@ export default function Footer() {
           alt="Notes Buddy"
           className="absolute -top-12 -right-14 size-16 md:-top-16 md:-right-22 md:size-28"
         />
-        Notes Buddy
+        Noterious
       </div>
       <div className="group flex items-center gap-2">
-        <Image
+        {/* <Image
           className="hidden size-12 rounded-2xl border border-gray-400 group-hover:border-2 md:block"
           src="/ram.png"
           width={48}
           height={48}
           alt="Ram"
-        />
-        <p className="opacity-50 transition-all duration-300 ease-in-out group-hover:opacity-100">
+        /> */}
+        {/* <p className="opacity-50 transition-all duration-300 ease-in-out group-hover:opacity-100">
           <Link target="_blank" href="https://www.ramx.in">
             Build with ❤️{" "}
             <span className="transition-all duration-300 ease-in-out group-hover:underline">
               Ram
             </span>
           </Link>
-        </p>
+        </p> */}
       </div>
     </footer>
   );

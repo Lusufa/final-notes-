@@ -46,6 +46,7 @@ export function convertPrismaValueToDisplayFormat(
     university: {
       MEDICAPS: "Medicaps University",
       IPS: "IPS University",
+      COER: "COER University",
     },
     degree: {
       BTECH_CSE: "B.Tech CSE",

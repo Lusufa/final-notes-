@@ -98,6 +98,8 @@ export default function AdminNoteEditor({ note }: Props) {
         return "Medicaps University";
       case "ips":
         return "IPS University";
+      case "coer":
+        return "COER University";
       default:
         return value;
     }
@@ -327,6 +329,9 @@ export default function AdminNoteEditor({ note }: Props) {
                       Medicaps University
                     </SelectItem>
                     <SelectItem value="ips">IPS University</SelectItem>
+                  </SelectContent>
+                  <SelectContent>
+                    <SelectItem value="coer">COER University</SelectItem>
                   </SelectContent>
                 </Select>
               </div>

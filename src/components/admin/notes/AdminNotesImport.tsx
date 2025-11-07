@@ -614,6 +614,7 @@ export default function AdminNotesImport() {
                         Medicaps University
                       </SelectItem>
                       <SelectItem value="ips">IPS University</SelectItem>
+                      <SelectItem value="coer">COER University</SelectItem>
                     </SelectContent>
                   </Select>
                 </div>

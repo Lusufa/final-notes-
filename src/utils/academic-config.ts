@@ -132,6 +132,7 @@ export const ACADEMIC_CONFIG: Record<string, UniversityConfig> = {
       },
     },
   },
+
   IPS: {
     info: {
       value: "IPS",
@@ -146,6 +147,115 @@ export const ACADEMIC_CONFIG: Record<string, UniversityConfig> = {
           label: "B.Tech IT",
           prismaValue: "BTECH_IT",
           sanityValue: "btech-it",
+        },
+        years: {
+          FIRST_YEAR: {
+            info: {
+              value: "FIRST_YEAR",
+              label: "1st Year",
+              prismaValue: "FIRST_YEAR",
+              sanityValue: "1st-year",
+            },
+            semesters: {
+              FIRST_SEMESTER: {
+                value: "FIRST_SEMESTER",
+                label: "1st Semester",
+                prismaValue: "FIRST_SEMESTER",
+                sanityValue: "1st-semester",
+              },
+              SECOND_SEMESTER: {
+                value: "SECOND_SEMESTER",
+                label: "2nd Semester",
+                prismaValue: "SECOND_SEMESTER",
+                sanityValue: "2nd-semester",
+              },
+            },
+          },
+          SECOND_YEAR: {
+            info: {
+              value: "SECOND_YEAR",
+              label: "2nd Year",
+              prismaValue: "SECOND_YEAR",
+              sanityValue: "2nd-year",
+            },
+            semesters: {
+              THIRD_SEMESTER: {
+                value: "THIRD_SEMESTER",
+                label: "3rd Semester",
+                prismaValue: "THIRD_SEMESTER",
+                sanityValue: "3rd-semester",
+              },
+              FOURTH_SEMESTER: {
+                value: "FOURTH_SEMESTER",
+                label: "4th Semester",
+                prismaValue: "FOURTH_SEMESTER",
+                sanityValue: "4th-semester",
+              },
+            },
+          },
+          THIRD_YEAR: {
+            info: {
+              value: "THIRD_YEAR",
+              label: "3rd Year",
+              prismaValue: "THIRD_YEAR",
+              sanityValue: "3rd-year",
+            },
+            semesters: {
+              FIFTH_SEMESTER: {
+                value: "FIFTH_SEMESTER",
+                label: "5th Semester",
+                prismaValue: "FIFTH_SEMESTER",
+                sanityValue: "5th-semester",
+              },
+              SIXTH_SEMESTER: {
+                value: "SIXTH_SEMESTER",
+                label: "6th Semester",
+                prismaValue: "SIXTH_SEMESTER",
+                sanityValue: "6th-semester",
+              },
+            },
+          },
+          FOURTH_YEAR: {
+            info: {
+              value: "FOURTH_YEAR",
+              label: "4th Year",
+              prismaValue: "FOURTH_YEAR",
+              sanityValue: "4th-year",
+            },
+            semesters: {
+              SEVENTH_SEMESTER: {
+                value: "SEVENTH_SEMESTER",
+                label: "7th Semester",
+                prismaValue: "SEVENTH_SEMESTER",
+                sanityValue: "7th-semester",
+              },
+              EIGHTH_SEMESTER: {
+                value: "EIGHTH_SEMESTER",
+                label: "8th Semester",
+                prismaValue: "EIGHTH_SEMESTER",
+                sanityValue: "8th-semester",
+              },
+            },
+          },
+        },
+      },
+    },
+  },
+
+  COER: {
+    info: {
+      value: "COER",
+      label: "COER University",
+      prismaValue: "COER",
+      sanityValue: "coer",
+    },
+    degrees: {
+      BTECH_CSE: {
+        info: {
+          value: "BTECH_CSE",
+          label: "B.Tech CSE",
+          prismaValue: "BTECH_CSE",
+          sanityValue: "btech-cse",
         },
         years: {
           FIRST_YEAR: {

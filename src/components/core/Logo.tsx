@@ -6,14 +6,14 @@ export default function Logo({ className }: { className?: string }) {
     <div className={className}>
       <Image
         className="dark:hidden"
-        src="/logo-light.svg"
+        src="/Noterios_SVG.svg"
         alt="Logo"
         width={100}
         height={100}
       />
       <Image
-        className="hidden dark:block"
-        src="/logo-dark.svg"
+        className="hidden w-100 dark:block"
+        src="/Noterios_SVG.svg"
         alt="Logo"
         width={100}
         height={100}
