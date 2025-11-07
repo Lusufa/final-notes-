@@ -7,7 +7,8 @@ import {
   UmamiPagesResponse,
 } from "@/types/umami";
 
-const UMAMI_API_URL = process.env.NEXT_PUBLIC_UMAMI_URL || "";
+const UMAMI_API_URL =
+  process.env.NEXT_PUBLIC_UMAMI_URL || "https://noterious-one.vercel.app";
 const UMAMI_API_TOKEN = process.env.UMAMI_API_TOKEN;
 const UMAMI_WEBSITE_ID = process.env.NEXT_PUBLIC_UMAMI_ID;
 
